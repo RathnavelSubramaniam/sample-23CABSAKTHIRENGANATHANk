@@ -1,11 +1,19 @@
 import java.util.Scanner;
 
-class Test {
+class test {
   public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in); // Scanner for user input
-    System.out.println("Enter integer value:"); // Prompt for input
-    int a = sc.nextInt(); // Read integer input
-    System.out.println("integer value: " + a); // Output the entered value
-    sc.close(); // Close the scanner to release resources
+    Scanner sc = new Scanner(System.in);
+    
+    // Display prompt exactly as required
+    System.out.println("Enter integer value:");
+    
+    // Read integer input
+    int a = sc.nextInt();
+    
+    // Display the output in the exact expected format
+    System.out.println("integer value:" + a);
+    
+    // Close the scanner to release resources
+    sc.close();
   }
 }
