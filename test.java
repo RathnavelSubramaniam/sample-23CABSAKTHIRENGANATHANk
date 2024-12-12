@@ -3,17 +3,17 @@ import java.util.Scanner;
 class test {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
+
+    // Prompt for input
+    System.out.print("Enter integer value: ");
     
-    // Display prompt exactly as required
-    System.out.println("Enter integer value:");
-    
-    // Read integer input
+    // Read integer value
     int a = sc.nextInt();
     
-    // Display the output in the exact expected format
+    // Output the result in the required format
     System.out.println("integer value:" + a);
     
-    // Close the scanner to release resources
+    // Close the scanner
     sc.close();
   }
 }
